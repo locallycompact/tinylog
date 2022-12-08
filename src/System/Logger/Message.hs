@@ -52,13 +52,13 @@ import Data.Text.Encoding (encodeUtf8)
 import Data.Word
 import GHC.Float
 
-import qualified Data.ByteString                     as S
-import qualified Data.ByteString.Lazy                as L
-import qualified Data.ByteString.Lazy.Builder        as B
-import qualified Data.ByteString.Lazy.Builder.Extras as B
-import qualified Data.Text                           as T
-import qualified Data.Text.Lazy                      as TL
-import qualified Data.Text.Lazy.Encoding             as TL
+import qualified Data.ByteString               as S
+import qualified Data.ByteString.Lazy          as L
+import qualified Data.ByteString.Builder       as B
+import qualified Data.ByteString.Builder.Extra as B
+import qualified Data.Text                     as T
+import qualified Data.Text.Lazy                as TL
+import qualified Data.Text.Lazy.Encoding       as TL
 
 data Builder = Builder !Int B.Builder
 
